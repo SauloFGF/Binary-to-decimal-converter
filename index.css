@@ -1,0 +1,71 @@
+* {
+    border: 0;
+    padding: 0;
+    font-size: 1.2rem;
+}
+
+body {
+    height: 630px;
+    width: 630px;
+    border: 3px solid #2C4142;
+    border-radius: 16px;
+
+}
+
+header { 
+    padding: 15px;
+    background-color: #2C4142;
+    border: 3px solid #2C4142;
+    color: #A7F6FA;
+    border-radius: 16px;
+    text-align: center;
+}
+
+.inputs{
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    gap: 15px;
+}
+
+.input {
+    border: 0.5px solid #000000;
+    height: 60px;
+    width: 600px;
+    border-radius: 15px;
+    text-align: left;
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+    margin-left: 15px;
+}
+
+.button{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.value{
+    background-color: #7DB7BA;
+    border: 3px solid #2C4142;
+    border-radius: 16px;
+    height: 60px;
+    width: 120px;
+}
+
+.resultado{
+    display: flex;
+    justify-content: center;
+    margin-top: 16px;
+}
+
+.converter{
+    background-color: #7DB7BA;
+    border: 3px solid #2C4142;
+    border-radius: 16px;
+    height: 60px;
+    width: 120px;
+}
+
